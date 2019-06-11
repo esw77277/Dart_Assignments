@@ -1,4 +1,5 @@
-void main(List<String> arguments) { 
+void main(List<String> arguments) 
+{ 
      // Numbers: int    
      int score = 23;   
      var count = 23;     // It is inferred as integer automatically by compiler   
@@ -13,7 +14,9 @@ void main(List<String> arguments) {
       // Boolean    
       bool isValid = true;    
       var isAlive = false;   
-      print('${score},percantage'); 
+      print('${score},$percentage,$percent,$name,$company')
+      print(isValid);
+     print($isAlive); 
       print(exponents); 
       print(hexValue);  
 }

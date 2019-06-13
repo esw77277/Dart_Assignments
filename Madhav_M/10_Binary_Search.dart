@@ -17,7 +17,7 @@ String binarySearch( List<int> list, int x )
     
     	if( x == list[mid] )
     	{
-      		return "Element $x found at index $mid";
+      		return "Element $x is found at index $mid";
     	}
     
     	else if ( x < list[mid] )
@@ -31,5 +31,5 @@ String binarySearch( List<int> list, int x )
     	}
   }
   
-  return  "Element $x not found";
+  return  "Element $x is not found";
 }

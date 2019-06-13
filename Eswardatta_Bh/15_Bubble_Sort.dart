@@ -2,6 +2,7 @@ void main()
 {
     List<int> fixedLengthList = [10, 30, 5, 67, 2, 20, 92,8];
     print(Bubble(fixedLengthList));
+    print((Bubble(fixedLengthList)).reversed);
 }
 List<int> Bubble(List<int> list)
 {
@@ -20,3 +21,4 @@ List<int> Bubble(List<int> list)
     }
   return list;
 }
+

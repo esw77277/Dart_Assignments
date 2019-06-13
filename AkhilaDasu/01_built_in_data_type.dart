@@ -2,7 +2,7 @@ void main(List<String> arguments)
 { 
      // Numbers: int    
      int score = 23;   
-     var count = 23;     // It is inferred as integer automatically by compiler   
+     //var count = 23;     // It is inferred as integer automatically by compiler   
      int hexValue = 0xEADEBAEE;  
      // Numbers: double    
      double percentage = 93.4;   
@@ -14,9 +14,9 @@ void main(List<String> arguments)
       // Boolean    
       bool isValid = true;    
       var isAlive = false;   
-      print('${score},$percentage,$percent,$name,$company')
+      print('${score},$percentage,$percent,$name,$company');
       print(isValid);
-     print($isAlive); 
+     print(isAlive); 
       print(exponents); 
       print(hexValue);  
 }

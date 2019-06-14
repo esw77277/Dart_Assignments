@@ -1,6 +1,6 @@
 void main()
 {
-    List<int> fixedLengthList = [10, 30, 5, 67, 2, 20, 92,8];
+    List<int> fixedLengthList = [20,10,30,50,40];
     print(Bubble(fixedLengthList));
 }
 List<int> Bubble(List<int> list)

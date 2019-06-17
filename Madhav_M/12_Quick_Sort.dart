@@ -18,7 +18,8 @@ void Quicksort(List<int> numbers, int left, int right)
     int i = left;
     int j = right;
 
-    int pivot = numbers[(left + right) ~/ 2];
+    int pivot = numbers[ ( left + right ) ~/ 2 ];
+    //int pivot  = numbers[ (( left + right ) / 2).floor() ];
 
     while(i <= j)
     {

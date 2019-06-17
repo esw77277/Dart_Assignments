@@ -6,7 +6,7 @@ void main() {
   while(decimal_value > 0)
   {
       binary_value = binary_value + (decimal_value % 2)*i;
-      decimal_value = (decimal_value/2).floor();
+      decimal_value = (decimal_value/2).floor(); //Returns the greatest integer no greater than this.
       i = i * 10;
   }
 

@@ -1,8 +1,9 @@
 void main() 
 {
-  List<int> lst = [0,4,6,9,10,1,15,21,3];
+  List<int> list = [0,4,6,9,10,1,15,21,3];
   
-  SortArray(lst);
+  SortArray(list);
+  print(list);
   
 }
 
@@ -17,7 +18,7 @@ void Quicksort(List<int> numbers, int left, int right)
     int i = left;
     int j = right;
 
-    int pivot = numbers[(left + right) / 2];
+    int pivot = numbers[(left + right) ~/ 2];
 
     while(i <= j)
     {
@@ -29,9 +30,9 @@ void Quicksort(List<int> numbers, int left, int right)
 
         if(i <= j)
         {
-            var tmp = numbers[i];
+            var temp = numbers[i];
             numbers[i] = numbers[j];
-            numbers[j] = tmp;
+            numbers[j] = temp;
 
             i++;
             j--;

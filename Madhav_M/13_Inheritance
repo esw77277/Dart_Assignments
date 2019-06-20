@@ -1,0 +1,56 @@
+void main(){
+  
+  var dog = Dog();
+  print(dog.name = "puppy");
+  print(dog.breed = "hutch");
+  dog.eat();
+  dog.bark();
+  
+  var fish = Fish();
+  print(fish.name = "kora");
+  fish.eat();
+  fish.swim();
+  
+  var bird = Bird();
+  print(bird.name = "parrot");
+  bird.eat();
+  bird.fly();
+  
+  var animal = Animals();
+  animal.eat();
+  
+}
+
+class Animals {
+  
+  String name;
+  String color;
+  
+  void eat(){
+    print("eat");
+  }
+  
+}
+
+class Dog extends Animals {
+  
+  String breed;
+  
+  void bark() {
+    print("bark");
+  }
+}
+
+class Fish extends Animals {
+  
+  void swim() {
+    print("swim");
+  }
+}
+
+class Bird extends Fish{
+   
+  void fly() {
+    print("fly");
+  }
+}

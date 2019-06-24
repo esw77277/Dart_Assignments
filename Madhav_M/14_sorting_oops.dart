@@ -3,11 +3,11 @@ void main()
   List<int> list = [0, 4, 6, 9, 10, 1, 15, 21, 3];
   print(list);
 
-  var bubble = BubbleSort();
-  print(bubble.sortMethod(list));
+  var bubblesorted = BubbleSort();
+  print(bubblesorted.sortMethod(list));
 
-  var quick = QuickSort();
-  print(quick.sortMethod(list));
+  var quicksorted = QuickSort();
+  print(quicksorted.sortMethod(list));
 }
 
 abstract class Sort {

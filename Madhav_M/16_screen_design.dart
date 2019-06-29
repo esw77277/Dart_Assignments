@@ -9,6 +9,7 @@ class Screen extends StatelessWidget{
   Widget build(BuildContext context) {
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
           child: Column(
             children: <Widget>[
@@ -18,8 +19,29 @@ class Screen extends StatelessWidget{
               ),
               Text(
                 'Madhav',
-                style: TextStyle(fontSize: 20,color: Colors.green),
+                style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.green
+                ),
               ),
+              Text(
+                'Flutter developer',
+                style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.green
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                child: Row(
+                  children: <Widget>[
+                    Icon(Icons.phone),
+                    Text(
+                        "9988776655"
+                    ),
+                  ],
+                ),
+              )
             ],
 
           ),
